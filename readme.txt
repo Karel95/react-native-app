@@ -61,7 +61,11 @@ Prints the version number and exits.
 Prints the list of available options and exits.
 
 
-I used:
+Repositorio del Curso de Midudev:
+https://github.com/midudev/react-native-expo-curso-2024
+
+
+My project:
 
 npx create-expo-app@latest react-native-app --template blank
 npx expo install react-native-web react-dom @expo/metro-runtime
