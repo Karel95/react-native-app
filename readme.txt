@@ -62,5 +62,23 @@ Prints the list of available options and exits.
 
 
 I used:
+
 npx create-expo-app@latest react-native-app --template blank
 npx expo install react-native-web react-dom @expo/metro-runtime
+npx expo lint
+npx expo install -- --save-dev prettier eslint-config-prettier eslint-plugin-prettier
+
+.eslintrc.js:
+
+module.exports = {
+  extends: ['expo', 'prettier'],
+  plugins: ['prettier'],
+  rules: {
+    'prettier/prettier': 'error',
+  },
+};
+
+.eslintignore:
+
+/.expo
+node_modules
