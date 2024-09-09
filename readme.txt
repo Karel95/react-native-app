@@ -91,4 +91,9 @@ npx expo install expo-constants
 
 npx expo install react-native-safe-area-context
 
+npx expo install react-native-svg
+
+npm install --save-dev eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin eslint-config-prettier eslint-plugin-prettier
+
+npx eslint . --ext .ts,.tsx,.js,.jsx
 

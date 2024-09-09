@@ -8,14 +8,15 @@ import {
   View,
 } from "react-native";
 import Constants from "expo-constants";
-
-const favicon = require("./assets/favicon.png");
+import IconReact from "./components/Logo";
+import favicon from "./assets/favicon.png";
 
 export default function App() {
   return (
     <View style={styles.container}>
       <StatusBar style="auto" />
       <ScrollView>
+        <IconReact />
         <Image source={favicon} style={{ width: 60, height: 60 }} />
         <Text>Open up App.js to start working on your app!</Text>
         {/* PRESSABLE es el recomendado, usalo siempre en vez de los 2 anteriores. */}
