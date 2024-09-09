@@ -86,3 +86,9 @@ module.exports = {
 
 /.expo
 node_modules
+
+npx expo install expo-constants
+
+npx expo install react-native-safe-area-context
+
+
