@@ -143,3 +143,5 @@ app.json:
 
 app/_layout.js
 app/index.js
+
+npm install @expo/vector-icons
