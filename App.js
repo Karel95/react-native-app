@@ -5,8 +5,6 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Text>Hello World!</Text>
-      <Text>Welcome to Karel's React Native App!</Text>
-      <Text>This is a simple app to learn React Native.</Text>
     </View>
   );
 }
