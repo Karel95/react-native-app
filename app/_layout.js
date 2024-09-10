@@ -1,12 +1,13 @@
 /* eslint-disable prettier/prettier */
 import React from "react";
-import { Text, View } from "react-native";
+import { View } from "react-native";
+import { Slot } from "expo-router";
 
 const Layout = () => {
   return (
     <>
-      <View className="flex-1 bg-black items-center justify-center">
-        <Text>Hola Mundo!</Text>
+      <View className="flex-1">
+        <Slot/>
       </View>
     </>
   )
