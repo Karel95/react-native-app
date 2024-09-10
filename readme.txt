@@ -126,3 +126,19 @@ module.exports = function (api) {
 +   plugins: ["nativewind/babel"],
   };
 };
+
+npx expo install expo-router react-native-safe-area-context react-native-screens expo-linking expo-constants expo-status-bar
+
+package.json:
+
+{
+  "main": "expo-router/entry"
+}
+
+app.json:
+
+{
+  "scheme": "your-app-scheme"
+}
+
+app/_layout.js
