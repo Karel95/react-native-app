@@ -142,3 +142,4 @@ app.json:
 }
 
 app/_layout.js
+app/index.js
