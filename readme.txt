@@ -97,3 +97,32 @@ npm install --save-dev eslint @typescript-eslint/parser @typescript-eslint/eslin
 
 npx eslint . --ext .ts,.tsx,.js,.jsx
 
+npm install nativewind
+npm install --save-dev tailwindcss@3.3.2
+
+npx tailwindcss init
+
+tailwind.config.js:
+
+module.exports = {
+- content: [],
++ content: [
+    "./App.{js,jsx,ts,tsx}",
+    "./components/**/*.{js,jsx,ts,tsx}",
+    "./app/**/*.{js,jsx,ts,tsx}",
+  ],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
+
+babel.config.js:
+
+module.exports = function (api) {
+  api.cache(true);
+  return {
+    presets: ["babel-preset-expo"],
++   plugins: ["nativewind/babel"],
+  };
+};
