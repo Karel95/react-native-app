@@ -14,7 +14,7 @@ const Index = () => {
       <Text>Welcome to Karel's React Native App!</Text>
       <Text>This is a simple app to learn React Native.</Text>
       <Link href="/about"><FontAwesome5 name="info" size={24} color="black" /></Link>
-      <Link href={`"/${Detail}"`}><MaterialCommunityIcons name="identifier" size={24} color="black" /></Link>
+      <Link href={`/${Detail}`}><MaterialCommunityIcons name="identifier" size={24} color="black" /></Link>
       <Text>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac felis auctor,
         convallis turpis nec, finibus tortor. Sed vitae felis non dolor rutrum
