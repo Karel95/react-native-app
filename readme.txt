@@ -145,3 +145,8 @@ app/_layout.js
 app/index.js
 
 npm install @expo/vector-icons
+
+
+Tarea:
+Exportar Apk:
+https://docs.expo.dev/build-reference/apk/
